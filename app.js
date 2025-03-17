@@ -50,22 +50,22 @@ class Mini_Figure {
         this.mats = {
             hairMat: { shader: new Color_Phong_Shader(), ambient: 1, diffusivity: 1, specularity: 1, color: color(0.17, 0.1, 0.0, 1) },
             headMat: {
-                shader: new Phong_Shader(), ambient: 1, diffusivity: 1, specularity: 1,
+                shader: new Color_Phong_Shader(), ambient: 1, diffusivity: 1, specularity: 1,
                 color_texture: new Texture("lego_models/minifigure/head/textures/2/official/color/3626d1304.png"),
                 color: color(0.94, 0.57, 0.01, 1)
             },
-            bodyMat: { shader: new Phong_Shader(), ambient: 1, diffusivity: 1, specularity: 1, color: color(0.05, 0.05, 0.05, 1) },
+            bodyMat: { shader: new Color_Phong_Shader(), ambient: 1, diffusivity: 1, specularity: 1, color: color(0.05, 0.05, 0.05, 1) },
             left_armMat: { shader: new Color_Phong_Shader(), ambient: 1, diffusivity: 1, specularity: 1, color: color(0.05, 0.05, 0.05, 1) },
             left_handMat: { shader: new Color_Phong_Shader(), ambient: 1, diffusivity: 1, specularity: 1, color: color(0.94, 0.57, 0.01, 1) },
             left_legMat: {
-                shader: new Phong_Shader(), ambient: 1, diffusivity: 1, specularity: 1,
+                shader: new Color_Phong_Shader(), ambient: 1, diffusivity: 1, specularity: 1,
                 color_texture: new Texture("lego_models/minifigure/left_leg/textures/2/official/color/3817d395.png"),
                 color: color(0.12, 0.17, 0.26, 1)
             },
             right_armMat: { shader: new Color_Phong_Shader(), ambient: 1, diffusivity: 1, specularity: 1, color: color(0.05, 0.05, 0.05, 1) },
             right_handMat: { shader: new Color_Phong_Shader(), ambient: 1, diffusivity: 1, specularity: 1, color: color(0.94, 0.57, 0.01, 1) },
             right_legMat: {
-                shader: new Phong_Shader(), ambient: 1, diffusivity: 1, specularity: 1,
+                shader: new Color_Phong_Shader(), ambient: 1, diffusivity: 1, specularity: 1,
                 color_texture: new Texture("lego_models/minifigure/right_leg/textures/2/official/color/3816d395.png"),
                 color: color(0.12, 0.17, 0.26, 1)
             }
