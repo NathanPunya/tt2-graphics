@@ -1,12 +1,12 @@
-import { defs, tiny } from './common.js';
+import { defs, tiny } from './examples/common.js';
 // Pull these names into this module's scope for convenience:
 const { vec3, vec4, vec, color, Mat4, Light, Material, Texture, Scene } = tiny;
 const { Cube, Axis_Arrows, Textured_Phong, Phong_Shader, Basic_Shader, Subdivision_Sphere } = defs;
-import { Shape_From_File } from './obj-file-demo.js';
+import { Shape_From_File } from './examples/obj-file-demo.js';
 import {
     Color_Phong_Shader, Shadow_Textured_Phong_Shader,
     Depth_Texture_Shader_2D, Buffered_Texture, LIGHT_DEPTH_TEX_SIZE
-} from './shadow-demo-shaders.js';
+} from './examples/shadow-demo-shaders.js';
 
 /* ============================================================
    Inlined Mini-Figure Definitions (using Basic_Shader & Textures)
