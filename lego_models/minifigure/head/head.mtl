@@ -1,0 +1,12 @@
+# Blender 4.3.2 MTL File: 'None'
+# www.blender.org
+
+newmtl MB_24_official_12194
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/Nateroni/Desktop/tiny-graphics-shadow_demo/lego_models/minifigure/head/textures/2/official/color/3626d220.png

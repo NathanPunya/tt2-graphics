@@ -1,0 +1,10 @@
+# www.mecabricks.com
+newmtl greenBasePlate
+Ka 1.0 1.0 1.0
+Kd 0.007499032040460618 0.20507873637973145 0.019382360952473074
+Ks 0.0 0.0 0.0
+Ni 1.5
+d 1
+illum 2
+
+
